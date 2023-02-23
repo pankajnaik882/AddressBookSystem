@@ -4,7 +4,9 @@
     {
         public static void Main(string[] args)
         {
-            Contact c1 = new Contact("Pankaj", "Naik", "abc@gmail.com", "Marcos Colony", "Nigeria", "Lonavala", 401204, 9876543210);
+            Contact c1 = new Contact();
+            String[] names = { "Sagar", "Krishna", "Pankaj", "Dharani" };
+            c1.change(names);
         }
     }
 }
